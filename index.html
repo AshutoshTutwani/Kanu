@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Custom Wedding Websiste | Have you own one customzied it now</title>
+  <title>Happy Birthday Saanvi AKA Kanu</title>
   <!--meta tags -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -75,8 +75,37 @@
       </div>
     </div>
   </section>
-  <!--//footer -->
-  <!--js working-->
+  <section class="crazy-move-pic py-lg-4 py-md-3 py-sm-3 py-3">
+    <div class="container-fluid py-lg-5 py-md-4 py-sm-4 py-3">
+      <div class="text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">
+      <h3 class="title">Memories</h3>
+    </div>
+      <div class="crazy-movements">
+        <ul id="flexiselDemo3">
+          <li><img src="images/Photo from Ashu Tutwani (1).jpg" alt="" class="image-fluid"></li>
+          <li><img src="images/IMG-20201102-WA0015.jpg" alt="" class="image-fluid"></li>       
+          <li><img src="images/image.jpg" alt="" class="image-fluid"></li>  
+          <li><img src="images/IMG-20201102-WA0030.jpg" alt="" class="image-fluid"></li>
+        
+          <li><img src="images/IMG-20201102-WA0044.jpg" alt="" class="image-fluid"></li> 
+          <li><img src="images/Photo from Ashu Tutwani (2).jpg" alt="" class="image-fluid"></li>
+          <li><img src="images/Photo from Ashu Tutwani.jpg" alt="" class="image-fluid"></li>
+        </ul>
+        <div class="clearfix"> </div>
+      </div>
+      <div class="crazy-movements">
+        <ul id="flexiselDemo4">           
+          <li><img src="images/IMG-20201102-WA0034.jpg" alt="" class="image-fluid"></li>
+          <li><img src="images/IMG-20201102-WA0032.jpg" alt="" class="image-fluid"></li>
+          <li><img src="images/IMG-20201103-WA0001.jpg" alt="" class="image-fluid"></li>
+          <li><img src="images/IMG-20201103-WA0000.jpg" alt="" class="image-fluid"></li>
+          <li><img src="images/IMG-20201102-WA0037.jpg" alt="" class="image-fluid"></li>
+          <li><img src="images/IMG-20201102-WA0043.jpg" alt="" class="image-fluid"></li>       
+        </ul>
+        <div class="clearfix"> </div>
+      </div>
+    </div>
+  </section>
   <script src='js/jquery-2.2.3.min.js'></script>
   <!--//js working-->
   <script src="js/jquery-sakura.min.js"></script>
@@ -94,11 +123,20 @@
         itemsToScroll: 1,
         autoPlay: {
           enable: true,
-          interval: 5000,
+          interval: 2000,
           pauseOnHover: true
         }
       });
 
+      $("#flexiselDemo4").flexisel({
+        visibleItems: 4,
+        itemsToScroll: 1,
+        autoPlay: {
+          enable: true,
+          interval: 2000,
+          pauseOnHover: true
+        }
+      });
 
     });
   </script>
@@ -121,26 +159,7 @@
   </script>
   <!-- //friends-honors FlexSlider -->
   <script src="js/simplyCountdown.js"></script>
-  <script>
-    function showLoc(num) {
-      var loc = document.getElementById("geoLocation");
-      var frame = document.getElementById("frame");
-      loc.style.display = "block"
-      if (num === 3) {
-        frame.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.861877234283!2d77.21505221542921!3d28.633901490769084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd37afdab457%3A0x4c822ae4cb340786!2sRadisson%20Blu%20Marina%20Hotel%20Connaught%20Place!5e0!3m2!1sen!2sin!4v1601116516268!5m2!1sen!2sin"
-      }
-      else if (num === 2) {
-        frame.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16665.4570317413!2d77.16805328492443!3d28.585350562564848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7f53da4f1ff4c214!2sITC%20Maurya%2C%20A%20Luxury%20Collection%20Hotel%2C%20New%20Delhi!5e0!3m2!1sen!2sin!4v1601118217821!5m2!1sen!2sin"
-      }
-      else if (num === 1) {
-        frame.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.67834246434!2d77.0187189154262!3d28.428961100015282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d198435ca7173%3A0x69b8c9ecf0277ba!2sRoyal%20swan%20banquet!5e0!3m2!1sen!2sin!4v1601118022326!5m2!1sen!2sin"
-      }
-    }
-    function hideLoc() {
-      var loc = document.getElementById("geoLocation");
-      loc.style.display = "none"
-    }
-    // default example
+  <script>  
     simplyCountdown('.simply-countdown-one');
   </script>
   <!-- start-smoth-scrolling -->
